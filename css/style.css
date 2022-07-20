@@ -1,1 +1,237 @@
-/*============ font ================ */
+/* ==============google font============= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* =================common css =================*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #161616;
+    width: 1300px;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+
+
+/* banner-part */
+
+.banner-detels .text h1 {
+    font-family: 'Poppins', sans-serif;
+    width: 470px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.banner-detels {
+    margin-left: 60px;
+    display: flex;
+    padding: 60px;
+}
+
+.banner-detels .text p {
+    font-family: 'Poppins', sans-serif;
+    width: 506px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -45px;
+    margin-bottom: 40px;
+}
+
+.banner-detels .text a {
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.banner-detels .text a:hover {
+    background-color: #ffffff;
+    color: green;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* ===================football-part===================== */
+.bg {
+    background-color: transparent;
+    margin-top: 130px;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.blogs-part .text {
+    width: 200px;
+    margin-left: 35px;
+}
+
+.blogs-part h2 {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #161616;
+    border-radius: 10px;
+    width: 200px;
+    padding: 25px;
+}
+
+.blogs-part .text .hvr {
+    background-color: green;
+    color: #ffffff;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+.blogs-part .text .hvr:hover {
+    background-color: #727272;
+    color: lightgrey;
+    border: 1px solid lightgray;
+}
+
+.blogs-part {
+    width: 25%;
+    background-color: #161616;
+    border-radius: 10px;
+    text-align: center;
+    height: 312px;
+}
+
+.team-part {
+    width: 72%;
+}
+
+.football {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.52);
+    box-shadow: 1px 2px 8px 2px rgba(0, 0, 0, 0.52);
+}
+
+.team-txt {
+    grid-gap: 20px;
+}
+
+.text-gap {
+    margin-left: 20px;
+}
+
+.team-detail h2 {
+    font-size: 18px;
+}
+
+.team-detail h4 {
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.fa-message {
+    margin-left: 15px;
+}
+
+.team-duration {
+    margin-bottom: 20px;
+}
+
+/* =========footrt-part=============== */
+.foter {
+    background-color: #161616;
+    border-radius: 0;
+    width: 1100px;
+    padding: 130px;
+}
+
+.footer-part {
+    text-align: center;
+}
+
+.footer-part h1 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.footer-part p {
+    font-size: 16px;
+    color: #B9B9B9;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icon i {
+    background-color: #f9f9f9;
+    color: #727272;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 15px;
+    transition: .5s;
+}
+
+.icon i:hover {
+    background-color: green;
+    color: #f9f9f9;
+    transform: scale(1.1);
+}
+
+
+/*=============== media queries=================== */
+
+/* =================mobile devices-start================= */
+
+
+/* =================mobile devices-start================= */
+
+
+
+
+/* ================= ipad devices start================= */
+/* ================= ipad devices end================= */
