@@ -84,6 +84,18 @@ main {
     grid-row-gap: 20px;
 }
 
+.blogs-part {
+    width: 25%;
+    background-color: #161616;
+    border-radius: 10px;
+    text-align: center;
+    height: 312px;
+}
+
+.team-part {
+    width: 72%;
+}
+
 .blogs-part .text {
     width: 200px;
     margin-left: 35px;
@@ -110,18 +122,6 @@ main {
     background-color: #727272;
     color: lightgrey;
     border: 1px solid lightgray;
-}
-
-.blogs-part {
-    width: 25%;
-    background-color: #161616;
-    border-radius: 10px;
-    text-align: center;
-    height: 312px;
-}
-
-.team-part {
-    width: 72%;
 }
 
 .football {
@@ -173,7 +173,7 @@ main {
 .foter {
     background-color: #161616;
     border-radius: 0;
-    width: 1100px;
+    width: 1089px;
     padding: 130px;
 }
 
@@ -194,7 +194,7 @@ main {
 }
 
 hr {
-    width: 1320px;
+    width: 900px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -226,7 +226,54 @@ hr {
 /*=============== media queries=================== */
 
 /* =================mobile devices-start================= */
+@media only screen and (max-width:688px) {
+    .banner-detels {
+        display: block;
+    }
 
+    .banner-img img {
+        width: 30%;
+        margin-left: 353px;
+        margin-top: 40px;
+    }
+
+    .banner-detels .text h1 {
+        width: 387px;
+        color: #ffffff;
+        text-align: center;
+        margin-left: 335px;
+        margin-bottom: 62px;
+        font-size: 40px;
+
+    }
+
+    .banner-detels .text p {
+        width: 329px;
+        font-size: 15px;
+        color: #ffffff;
+        margin-left: 365px;
+        text-align: center;
+    }
+
+    .banner-detels .text a {
+        margin-left: 445px;
+    }
+
+    .football {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-part p {
+        display: block;
+    }
+
+    .foter {
+        padding-bottom: 266px;
+    }
+}
 
 /* =================mobile devices-start================= */
 
