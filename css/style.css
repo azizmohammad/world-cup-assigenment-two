@@ -185,6 +185,34 @@ main {
     color: #ffffff;
 }
 
+.team-detail .german {
+    font-size: 24px;
+    text-align: center;
+}
+
+.team-detail .aprl {
+    font-size: 16px;
+    text-align: center;
+}
+
+.team .card {
+    display: flex;
+    padding: 15px;
+}
+
+.team .card img {
+    width: 100%;
+}
+
+.team .card .bnrs {
+    /* margin-left: 30px; */
+}
+
+.team .card h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* =========footrt-part=============== */
 .foter {
     background-color: #161616;
@@ -319,6 +347,11 @@ hr {
         width: 200px;
         margin-left: -20px;
     }
+
+    .icon {
+        margin-left: -115px;
+        margin-right: -120px;
+    }
 }
 
 /* =================mobile devices-start================= */
@@ -327,9 +360,9 @@ hr {
 /* ================= ipad devices start================= */
 
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .container {
+    /* .container {
         width: 1250px;
-    }
+    } */
 
     .banner-detels {
         margin-left: 210px;
@@ -366,7 +399,7 @@ hr {
     }
 
     .blogs-part .text {
-        margin-left: 160%;
+        margin-left: 10%;
         display: flex;
         margin-top: -160px;
     }
@@ -400,24 +433,10 @@ hr {
         font-size: 25px;
     }
 
-    .footer-part {
-        margin-left: 210px;
-    }
-
     hr {
-        width: 700px;
+        width: 500px;
     }
 
-    .icon {
-        margin-left: 220px;
-    }
-
-    .foter {
-        background-color: #161616;
-        border-radius: 0;
-        width: 1000px;
-        padding: 130px;
-    }
 
 
 
